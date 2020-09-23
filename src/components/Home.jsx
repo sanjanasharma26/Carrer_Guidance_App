@@ -5,11 +5,15 @@ import law from './law.jpg';
 import doc from './doc.jpg';
 import Card from './Card';
 import { Button } from '@material-ui/core';
+import Menu from './Menu';
+import { Link } from 'react-router-dom';
 
         
         const Services = () => {
             return (
                 <>
+                <Menu/>
+                <br></br><br></br>
             <img src={img1} height='600px' width='1500px'/>
             <br></br> <br></br>
             <h2 className='heading2'>Common Courses</h2>
@@ -33,7 +37,8 @@ import { Button } from '@material-ui/core';
             </div>
             <br></br> <br></br>
            
-            <a href='Courses'> <button className='button_home'>More courses</button></a>
+            
+            <Link to='Courses'><button className='button_home'>More courses</button></Link>
             <br></br> <br></br>
             <div className='footer'>
                 <h3>Company address and other details here..</h3>

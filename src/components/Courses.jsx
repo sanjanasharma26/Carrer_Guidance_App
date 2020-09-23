@@ -1,11 +1,13 @@
 import React from 'react';
 import Card from './Card';
+import Menu from './Menu';
 
 
 const Courses = () => {
     return (
     <>
-
+         <Menu/>
+    <br></br><br></br>
         <p className='para_course'> You can see different courses here. According to your interest you can see the details of the particular course and if you want personal guidance then fo to the contact page and submit details. we can call you or whatsapp for your guidance. We have professional councelers forthe guidance. </p>
    
         <br></br><br></br>

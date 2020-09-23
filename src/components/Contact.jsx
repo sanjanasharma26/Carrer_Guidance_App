@@ -3,6 +3,7 @@
 import React from 'react';
 import TextField from '@material-ui/core/TextField';
 import { makeStyles } from '@material-ui/core/styles';
+import Menu from './Menu';
 
 
 const useStyles = makeStyles((theme) => ({
@@ -19,6 +20,8 @@ export default function ValidationTextFields() {
 
   return (
     <>
+    <Menu/>
+    <br></br><br></br>
      <p className='para_course'>If you want a personal guidance about your carrer or you have any doubt regarding carrer then feel free to contact us. we are here to help you .</p>
     <div className='div_form'>
      

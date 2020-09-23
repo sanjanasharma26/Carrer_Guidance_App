@@ -13,6 +13,7 @@ import TableHead from '@material-ui/core/TableHead';
 import TablePagination from '@material-ui/core/TablePagination';
 import TableRow from '@material-ui/core/TableRow';
 import axios from "axios";
+import Menu from './Menu';
 
 
 const title = () => {
@@ -110,7 +111,9 @@ export default function MI() {
   })
  
   return (
-    
+    <>
+    <Menu/>
+    <br></br><br></br>
     <Paper className={classes.root}>
       <TableContainer className={classes.container}>
         <Table stickyHeader aria-label="sticky table">
@@ -157,6 +160,7 @@ export default function MI() {
         onChangeRowsPerPage={handleChangeRowsPerPage}
       />
     </Paper>
+    </>
   );
 }
 

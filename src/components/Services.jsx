@@ -1,8 +1,15 @@
 import React from 'react';
+import Menu from './Menu';
 
 
 const Services = () => {
-    return <h1> This is Services page </h1>
+    return (
+        <>
+         <Menu/>
+    <br></br><br></br>
+    <h1> This is Services page </h1>
+    </>
+    )
 };
 
 export default Services;

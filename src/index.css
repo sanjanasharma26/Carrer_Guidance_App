@@ -15,11 +15,12 @@ a.active-class {
 .div_menu {
 padding-top: 30px;
 padding-bottom: 30px;
-margin-top: 20px;
+margin-top: 0px;
 background-color: rgb(219, 21, 21);
 padding-left: 20px;
 margin-left: 100px;
 margin-right: 100px;
+border-radius: 10px;
 }
 
 .div_form {
@@ -78,4 +79,46 @@ margin-right: 100px;
   font-family: cursive;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.div_login {
+  float: right;
+  margin-right: 30px;
+}
+
+.div_lform {
+  height : 500px;
+  width: 900px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgb(245, 242, 236);
+  margin-left: 300px;
+  margin-right: 300px;
+  color:rgb(219, 21, 21) ;
+
+}
+
+.login_input {
+  width: 700px;
+  height: 40px;
+  border-color: crimson;
+}
+
+.reg_input {
+  width : 600px;
+  height : 40px;
+  border-color: crimson;
+  border-radius: 5px;
+}
+
+.div_rform {
+  height : 800px;
+  width: 900px;
+  text-align: center;
+  margin-top: 20px;
+  background-color: rgb(245, 242, 236);
+  margin-left: 300px;
+  margin-right: 300px;
+  color:rgb(219, 21, 21) ;
+
 }
